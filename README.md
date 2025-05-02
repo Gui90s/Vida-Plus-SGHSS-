@@ -22,39 +22,40 @@ Este projeto tem como objetivo oferecer uma solução completa para a gestão de
 app/
 │
 ├── principal.py               # Ponto de entrada da aplicação
-├── banco.py                   # Configuração e conexão com o banco de dados
-├── config.py                  # Configurações sensíveis (JWT, etc)
+├── banco_de_dados.py                   # Configuração e conexão com o banco de dados
+├── configuracoes.py                  # Configurações sensíveis (JWT, etc)
 │
 ├── rotas/                     # Endpoints da API
 │   ├── autenticacao.py
+│   ├── consultas.py
+│   ├── leitos.py
+│   ├── notificacoes.py
 │   ├── pacientes.py
 │   ├── profissionais.py
-│   ├── consultas.py
 │   ├── prontuarios.py
-│   ├── telemedicina.py
-│   ├── leitos.py
-│   └── notificacoes.py
+│   └── telemedicina.py
 │
 ├── modelos/                   # Modelos do banco (SQLAlchemy)
-│   ├── autenticacao.py
+│   ├── consultas.py
+│   ├── leitos.py
+│   ├── notificacoes.py
 │   ├── pacientes.py
 │   ├── profissionais.py
-│   ├── consultas.py
 │   ├── prontuarios.py
 │   ├── telemedicina.py
-│   ├── leitos.py
-│   └── notificacoes.py
+│   └── usuario.py
 ├── esquemas/                  # Schemas de entrada e saída (Pydantic)
-│   ├── autenticacao.py
+│   ├── consultas.py
+│   ├── leitos.py
+│   ├── notificacoes.py
 │   ├── pacientes.py
 │   ├── profissionais.py
-│   ├── consultas.py
 │   ├── prontuarios.py
 │   ├── telemedicina.py
-│   ├── leitos.py
-│   └── notificacoes.py
-
+│   └── usuario.py
 └── servicos/                  # Lógicas internas e autenticação
+│   └── autenticacao_servico.py
+
 ```
 
 ---
