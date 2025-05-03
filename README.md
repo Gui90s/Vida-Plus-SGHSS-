@@ -44,6 +44,7 @@ app/
 │   ├── prontuarios.py
 │   ├── telemedicina.py
 │   └── usuario.py
+│
 ├── esquemas/                  # Schemas de entrada e saída (Pydantic)
 │   ├── consultas.py
 │   ├── leitos.py
@@ -53,6 +54,7 @@ app/
 │   ├── prontuarios.py
 │   ├── telemedicina.py
 │   └── usuario.py
+│
 └── servicos/                  # Lógicas internas e autenticação
 │   └── autenticacao_servico.py
 
