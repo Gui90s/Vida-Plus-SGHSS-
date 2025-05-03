@@ -22,8 +22,8 @@ Este projeto tem como objetivo oferecer uma solução completa para a gestão de
 app/
 │
 ├── principal.py               # Ponto de entrada da aplicação
-├── banco_de_dados.py                   # Configuração e conexão com o banco de dados
-├── configuracoes.py                  # Configurações sensíveis (JWT, etc)
+├── banco_de_dados.py          # Configuração e conexão com o banco de dados
+├── configuracoes.py           # Configurações sensíveis (JWT, etc)
 │
 ├── rotas/                     # Endpoints da API
 │   ├── autenticacao.py
