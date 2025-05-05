@@ -70,20 +70,13 @@ app/
 - Git
 - Postman (para testar)
 
-### 📥 1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/sghss.git
-cd sghss
-```
-
-### 🧪 2. Crie um ambiente virtual
+### 🧪 1. Crie um ambiente virtual
 
 ```bash
 python -m venv .venv
 ```
 
-### 📦 3. Ative o ambiente virtual
+### 📦 2. Ative o ambiente virtual
 
 - No **Windows**:
 ```bash
@@ -95,13 +88,13 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 📚 4. Instale as dependências
+### 📚 3. Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### ▶️ 5. Execute a aplicação
+### ▶️ 4. Execute a aplicação
 
 ```bash
 uvicorn app.principal:app --reload
