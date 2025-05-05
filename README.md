@@ -110,7 +110,7 @@ http://127.0.0.1:8000/docs
 
 ## 🧪 Testes com o Postman
 
-- Importe o arquivo `SGHSS_Postman_Grupo_Completo.json` fornecido
+- Importe o arquivo `SGHSS_Postman.json` fornecido no arquivo rar
 - Faça login com o endpoint `/auth/login`
 - Copie o `access_token` retornado e cole na variável `{{token}}` da coleção
 - Teste os demais endpoints agrupados por funcionalidade
